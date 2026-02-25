@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: "Display Message"
         run: |
-          echo "New issue has been opened!"
+          echo "An issue has been submitted!"
           echo "The issue was titled: ${{ github.event.issue.title }}"
-          echo "It was posted by: ${{ github.event.issue.username }}"
+          echo "It was posted by: ${{ github.event.issue.actor }}"
 
