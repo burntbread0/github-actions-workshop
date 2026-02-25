@@ -10,4 +10,4 @@ jobs:
       - name: Cowsays
         uses: mscoutermarsh/cowsays-action@v1
         with:
-          text: "Hello staffs!"
+          text: "moo moo moo"
