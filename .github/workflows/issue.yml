@@ -1,0 +1,13 @@
+name: Issue
+
+on: 
+  issue:
+
+jobs: 
+  print-issue:
+  runs-on: ubuntu-latest
+  steps:
+    - name: "Display Message"
+      run: |
+        echo "Name of issue: ${{ github.event.issue.title }}"
+        echo "Name of issuer: ${{ github.event.issue.username}} "
